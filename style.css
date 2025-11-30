@@ -1,0 +1,60 @@
+.color{
+    color:red ; 
+}
+.size{
+    margin: 20px 0;
+    font-size: 100px;
+}
+.komatu{
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+}
+.profile-card {
+  display: flex;                  /* 横並びにする */
+  align-items:center;        /* 上揃えにする */
+}
+.profile-text {
+  flex: 1; /* 文章側を広くする */
+  font-family: "Yu Gothic", sans-serif;
+  line-height: 1.8;
+}
+.profile-logo img {
+  width: 200px;
+  height: auto;
+   transform: translateX(-1000px); /* ← 左に1000px移動 */
+}
+.bunbunsize{
+  margin: 10px 0;
+}
+ .screen {
+      display: none;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    .active {
+      display: block;
+    }
+    button {
+      margin: 5px;
+    }
+    @media(max-width:800px) {
+        
+}
+.screen { display: none; }
+.screen.active { display: block; }
+
+.like-screen { display: none; }
+.like-screen.active { display: block; }
+.screen, .like-screen {
+    display: none;
+}
+
+.screen.active, .like-screen.active {
+    display: block;
+}
+
+
+
