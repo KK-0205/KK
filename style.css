@@ -55,6 +55,12 @@
 .screen.active, .like-screen.active {
     display: block;
 }
+.colorkk{
+      background-color: yellow;
+    }
+.kk{
+    text-align: center;
+}
 
 
 
